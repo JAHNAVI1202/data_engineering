@@ -6,3 +6,5 @@ is missing today
 splitted= avr.split()
 new=splitted[0]+splitted[1]+splitted[2]+splitted[3]+splitted[4]
 print(new)
+new1 ="".join(splitted[:5])
+print(new1)
