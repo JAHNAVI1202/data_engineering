@@ -1,5 +1,5 @@
 import random
-guess_number=random.randrange(1,20)
+guess_number=random.randint(1,20)
 print(guess_number)  
 
 chances =3
