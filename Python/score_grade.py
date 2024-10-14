@@ -8,7 +8,6 @@ if score >=0 and score <=100:
         print("your grade is C")
     elif(score<70):
         print("your grade is D")
-    elif(score<35):
-        print("Fail")
+    
 else:
     print("enter a valid score")
