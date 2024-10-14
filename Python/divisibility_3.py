@@ -1,6 +1,12 @@
 list_20_numbers=[i for i in range(1,21)]
 print(list_20_numbers)
+l=[]
 for i in list_20_numbers:
-    if(i%3==0):
-        print(i,end=" ")
-        
+    rem=i%3
+    if(rem==0):
+       l.append(i)
+    else:
+        print(rem,f"remainder for number {i}")
+print(l)
+
+  
