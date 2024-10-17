@@ -37,7 +37,7 @@ def space_check(board,position):
 
 def player_choice(board):
     position = 0
-    while position not in range(1,10) and not space_check(board,position):
+    while position not in range(1,10) or not space_check(board,position):
         try:
             position = int(input("Choose your Next position (1-9): "))
         except ValueError:
