@@ -23,3 +23,5 @@ students = {
 
 averages = calculate_average_marks(students)
 print(averages)
+
+print(max(averages.values()))
